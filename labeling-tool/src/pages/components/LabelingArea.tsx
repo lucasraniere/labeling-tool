@@ -1,11 +1,12 @@
 import AnnotationButtons from "./basics/AnnotationButtons";
 import Characteristics from "./basics/Characteristics";
-import PolarSwitch from "./basics/PolarSwitch";
 
 export default function LabelingArea() {
     return (
-        <div className="flex flex-col bg-green-500 w-1/2 float-right p-2 h-full">
-            <PolarSwitch />
+        <div className={`flex flex-col bg-green-500
+                        w-1/2 float-right p-2 h-screen
+                        justify-around
+                        `}>
             <Characteristics>Linguagem Tóxica</Characteristics>
             <Characteristics>Discurso de Ódio</Characteristics>
             <Characteristics>Linguagem Emotiva</Characteristics>
