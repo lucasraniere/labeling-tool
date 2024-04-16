@@ -33,11 +33,11 @@ body {
 }
 
 button {
-  @apply bg-gray-300 text-black rounded-md m-2 py-1 px-2;
+  @apply bg-zinc-300 text-black rounded-md m-2 py-1 px-2;
 }
 
 button:hover {
-  @apply bg-gray-200 font-semibold border-gray-300 border-2;
+  @apply bg-gray-200;
 }
 
 textarea {
